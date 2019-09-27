@@ -134,6 +134,13 @@ def stats(bot, update):
               n).format(number=n)
         )
 
+        n = us.second_places
+        stats_text.append(
+            _("{number} second place",
+              "{number} second places",
+              n).format(number=n)
+        )
+
         n = us.cards_played
         stats_text.append(
             _("{number} card played",
